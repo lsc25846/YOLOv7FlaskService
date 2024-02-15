@@ -1,6 +1,6 @@
 # YOLOv7FlaskService
 ## 程式主畫面
-![image]()
+![主畫面](https://github.com/lsc25846/YOLOv7FlaskService/blob/main/Images/mainWindow.png)
 
 ## 功能
 此專案實現一基於Flask框架的影像檢測Server，透過yolov7進行影像辨識，再將結果回傳給Client端
@@ -24,18 +24,18 @@ pip install -r requirements.txt
 ```
 weights = './path/to/your/weight'  # 替換為你的權重檔路徑
 ```
-
+![Server](https://github.com/lsc25846/YOLOv7FlaskService/blob/main/Images/Server.png)
 ### 2.執行[server.py](https://github.com/lsc25846/YOLOv7FlaskService/blob/main/Server/server.py)
 如果運行成功，則會在[http://127.0.0.1:5000](http://127.0.0.1:5000)網址中可以看到畫面
 
 ### 3.請到Client資料夾中執行[client.py](https://github.com/lsc25846/YOLOv7FlaskService/blob/main/Client/client.py)
-![image]()
+![主畫面](https://github.com/lsc25846/YOLOv7FlaskService/blob/main/Images/mainWindow.png)
 請填入Server URL(預設為http://127.0.0.1:5000)  
-![image]()
+![開啟資料夾](https://github.com/lsc25846/YOLOv7FlaskService/blob/main/Images/openFolder.png)
 按下Open Folder開啟圖片的資料夾  
-![image]()
+![SendImage](https://github.com/lsc25846/YOLOv7FlaskService/blob/main/Images/sendImage.png)
 Send Image按鈕可以傳送一張圖片到Server端進行辨識  
-![image]()
+![SendAllImages](https://github.com/lsc25846/YOLOv7FlaskService/blob/main/Images/sendAllImages.png)
 Send All Images按鈕則可以一次傳送整個資料夾中的影像進行辨識  
 
 ## Reference
