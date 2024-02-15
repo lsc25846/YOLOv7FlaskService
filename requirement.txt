@@ -1,0 +1,4 @@
+Falsk
+flask-socketio
+pillow
+

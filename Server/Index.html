@@ -1,0 +1,7 @@
+<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.js"></script>
+<script type="text/javascript">
+    var socket = io.connect('http://' + document.domain + ':' + location.port);
+    socket.on('message', function(data) {
+        alert(data.msg); // 或者更新頁面元素以顯示消息
+    });
+</script>
